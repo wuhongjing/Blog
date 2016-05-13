@@ -5,7 +5,8 @@ window.onload=function(){
 		var disX=oEvent.clientX-oBox.offetWidth;
 		var disY=oEvent.clientY-oBox.offetHeight;
 		document.onmousemove=function(ev){
-
+			var l=oEvent.clientX-disX;
+			var l=oEvent.clientY-disY;
 		}
 	}
 };
